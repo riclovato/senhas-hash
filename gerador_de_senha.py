@@ -1,8 +1,8 @@
 import random
 import string
 
-size = 16
-
+size = int(input('Digite o tamanho de senha que você deseja: '))
+    #letras maiusculas e minusculas # digitos #simbolos
 chars = string.ascii_letters + string.digits + '!@#$%&*()-=+_,.;<>:?|/'
 
 rnd = random.SystemRandom()
